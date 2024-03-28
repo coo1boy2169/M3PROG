@@ -41,3 +41,6 @@ services:
       PMA_PASSWORD: R00tp@ss
     ports:
       - "1088:80"
+
+
+      
