@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    font-family: sans-serif;    
+}
+
+
+form{
+    height: 53rem;
+    background: whitesmoke;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    padding: 4rem;
+    font-size: 3rem;
+    gap: 1rem;
+    border-radius: 3px;
+    border: 2px solid black;
+    margin: 1rem;
+}
+
+input {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 3px solid #ccc;
+    border-radius: 10px;
+    box-sizing: border-box;
+}
+
+#cars{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 3px solid #ccc;
+    border-radius: 10px;
+    box-sizing: border-box;
+}
+
+
+button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 3px solid #ccc;
+    border-radius: 10px;
+    box-sizing: border-box;
+    cursor: pointer;
+    transition: scale 1s
+}
+
+
+
+button:hover{
+
+    scale: 1.06;
+
+    transition-timing-function: ease;
+    
+}
+
+
+
+
+

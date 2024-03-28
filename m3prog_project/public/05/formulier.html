@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>formulier</title>
+</head>
+
+<body>
+    <form action="verwerk.php" method="POST">
+
+        <label>Wat is je voornaam?</label>
+        <input id="name" type="text" name="voornaam">
+
+        <label> Waneer ben je jarig?</label>
+        <input  id="day" type="date" name="day">
+
+        <label> Wat is je favo auto ? </label>
+        <select id="cars" name="auto">
+            <option label="lambo"> Lambo </option>
+            <option label="bmw"> bmw </option>
+            <option label="meri"> meri </option>
+            <option label="porshe"> porshe </option>
+        </select>
+
+
+        <button type="submit">Opsturen</button>
+
+    </form>
+</body>
+
+</html>
